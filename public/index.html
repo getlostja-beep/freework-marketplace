@@ -1,1 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111820"><meta name="description" content="Find independent talent and meaningful work. No platform commissions or paid memberships.">
+<title>FreeWork — Talent without platform fees</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="FreeWork home"><span class="logo"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 28 18 8l7 12 7-8 9 9-17 19-7-8-10 3 8-8z" fill="#09c9ee"/><path d="m18 8 7 12-8 12-3-8z" fill="#42e5ff"/></svg></span><span>free<span class="cyan">work</span></span></a>
+  <nav><a href="#jobs">Find work</a><a href="#talent">Find talent</a><a href="#how">How it works</a></nav>
+  <div class="nav-actions"><button class="btn ghost" id="loginOpen">Log in</button><button class="btn primary" id="signupOpen">Get started <span>↗</span></button><button class="iconbtn" id="menuBtn" aria-label="Open menu">☰</button></div>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy"><div class="eyebrow"><span class="dot"></span> THE OPEN MARKETPLACE FOR EVERYONE</div>
+  <h1>Good work.<br><span class="gradient">No platform fees.</span></h1>
+  <p class="lead">A better place to build things together. Meet independent talent, find meaningful projects, and keep your earnings yours.</p>
+  <div class="hero-ctas"><button class="btn primary large" id="heroSignup">Join FreeWork <span>↗</span></button><a class="btn outline large" href="#jobs">Explore projects <span>→</span></a></div>
+  <div class="proof"><div class="avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div><div><strong>Built for people, not paywalls.</strong><small>Free access to every core feature.</small></div></div>
+  </div>
+  <div class="hero-art"><div class="orbit orbit1"></div><div class="orbit orbit2"></div><div class="art-card card-a"><span class="mini-icon">✳</span><div><strong>Product designer</strong><small>Design · UI/UX</small></div><span class="status">Available</span></div><div class="art-center"><svg viewBox="0 0 120 120"><path d="M14 69 42 20l18 28 18-19 29 27-48 43-23-22-22 8 21-24z" fill="#0ac9ed"/><path d="m42 20 18 28-23 35-8-19z" fill="#6beeff"/></svg></div><div class="art-card card-b"><span class="mini-icon">⌘</span><div><strong>Web developer</strong><small>Development · React</small></div><span class="rating">★ 5.0</span></div><div class="floating-tag">✦ Work on your terms</div></div>
+  <div class="hero-bottom"><span><i>✓</i> No subscriptions</span><span><i>✓</i> No platform commission</span><span><i>✓</i> No locked features</span></div>
+</section>
+<section class="section" id="jobs"><div class="section-head"><div><div class="eyebrow">YOUR NEXT OPPORTUNITY</div><h2>Find work that <span class="cyan">fits you.</span></h2><p>Explore projects posted by people ready to build together.</p></div><a class="text-link" href="#jobs">Browse projects ↗</a></div>
+<div class="searchbar"><span>⌕</span><input id="jobSearch" placeholder="Search projects, skills, or keywords" aria-label="Search projects"><button class="btn primary" id="searchJobs">Search projects</button></div>
+<div id="jobsList" class="job-grid"><div class="empty">Loading the latest projects…</div></div>
+</section>
+<section class="section talent-section" id="talent"><div class="section-head"><div><div class="eyebrow">PEOPLE MAKE THE DIFFERENCE</div><h2>Meet independent <span class="cyan">talent.</span></h2><p>Discover people with the skills to bring your idea to life.</p></div><a class="text-link" href="#talent">Browse talent ↗</a></div>
+<div class="searchbar"><span>⌕</span><input id="talentSearch" placeholder="Search people, skills, or expertise" aria-label="Search freelancers"><button class="btn primary" id="searchTalent">Find talent</button></div><div id="talentList" class="talent-grid"><div class="empty">Loading talent…</div></div>
+</section>
+<section class="how-section" id="how"><div class="section"><div class="section-head"><div><div class="eyebrow">SIMPLE BY DESIGN</div><h2>Work together.<br><span class="cyan">Keep it yours.</span></h2></div><p class="side-copy">The essentials to find work and collaborate, without paying a platform just to participate.</p></div>
+<div class="steps"><article><span class="step-no">01</span><div class="step-icon">↗</div><h3>Make your profile</h3><p>Share your skills, experience, and portfolio. Build your professional presence for free.</p></article><article><span class="step-no">02</span><div class="step-icon">⌕</div><h3>Find your match</h3><p>Browse projects or discover talent. Post a project or send a proposal without a membership.</p></article><article><span class="step-no">03</span><div class="step-icon">✳</div><h3>Build something good</h3><p>Message, agree on milestones, deliver work, and leave reviews after a project.</p></article></div></div></section>
+<section class="cta"><div class="cta-glow"></div><div class="eyebrow">YOUR WORK. YOUR NEXT CHAPTER.</div><h2>Make room for<br><span class="gradient">better work.</span></h2><p>Join a marketplace designed to keep the door open.</p><button class="btn primary large" id="bottomSignup">Create your free account ↗</button><small>Free to use. Third-party processing or infrastructure charges may still apply.</small></section>
+</main>
+<footer><a class="brand" href="#"><span class="logo small-logo"><svg viewBox="0 0 48 48"><path d="M7 28 18 8l7 12 7-8 9 9-17 19-7-8-10 3 8-8z" fill="#09c9ee"/></svg></span><span>free<span class="cyan">work</span></span></a><div class="footer-links"><a href="#about">About</a><a href="#help">Help center</a><a href="#terms">Terms</a><a href="#privacy">Privacy</a><a href="#guidelines">Community guidelines</a><a href="mailto:hello@example.com">Contact</a></div><span class="copyright">© 2026 FreeWork · Built for open opportunity</span></footer>
 
+<div class="modal-backdrop" id="authModal" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div class="modal-mark">✳</div><div class="eyebrow">WELCOME TO FREEWORK</div><h2 id="modalTitle">Create your account</h2><p class="modal-sub">A little less platform. A lot more possibility.</p>
+<div class="tabs"><button class="tab active" data-mode="register">Sign up</button><button class="tab" data-mode="login">Log in</button></div>
+<form id="authForm"><div id="nameWrap"><label for="authName">Your name</label><input id="authName" name="name" autocomplete="name" placeholder="Alex Morgan"></div><label for="authEmail">Email address</label><input id="authEmail" name="email" type="email" autocomplete="email" required placeholder="you@example.com"><label for="authPassword">Password</label><input id="authPassword" name="password" type="password" autocomplete="new-password" required minlength="10" placeholder="At least 10 characters"><div id="roleWrap"><label for="authRole">I want to</label><select id="authRole" name="role"><option value="freelancer">Find freelance work</option><option value="client">Hire independent talent</option></select></div><button class="btn primary full" type="submit" id="authSubmit">Create free account ↗</button><p class="form-message" id="authMessage" role="status"></p></form><p class="legal-note">By continuing, you agree to use the platform respectfully. Never send money to strangers outside your own agreed payment arrangements.</p></section></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js" defer></script>
+</body></html>
